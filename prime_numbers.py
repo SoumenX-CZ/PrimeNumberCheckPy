@@ -1,12 +1,12 @@
-#Zadané číslo
-num = int(input("Číslo: "))
+#Number input
+num = int(input("Number: "))
 
 flag = False
 
 if num == 1:
-    print(num, "není prvočíslo")
+    print(num, "is not a prime number")
     
-#Kontola zda se jedná o prvočíslo
+#Checking if it is a prime number
 elif num > 1:
     for i in range(2, num):
         if (num % i) == 0:
@@ -16,6 +16,6 @@ elif num > 1:
             break
 
     if flag:
-        print(num, "není prvočíslo")
+        print(num, "is not a prime number")
     else:
-        print(num, "je prvočíslo")
+        print(num, "is a prime number")
