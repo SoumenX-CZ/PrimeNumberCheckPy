@@ -4,6 +4,17 @@ num = int(input("Number: "))
 flag = False
 
 #Defining one. One is not a prime number. Any other numbers are in a "for" loop.
+#1
+#222
+#3444weofniasd
+#34alksfowncinyxc
+#344424daf
+#34442wefww
+#344424lkajsdlfkj
+#3asfkejwoaj
+#lskdjfpowneifnoqlanymc
+#powoijf
+
 if num == 1:
     print(num, "is not a prime number")
     
